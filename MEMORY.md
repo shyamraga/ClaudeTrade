@@ -1,0 +1,1 @@
+- [Claude Trade Bootstrap](memory/project-bootstrap.md) — initial backend scaffold, 11 trading agents in 3-tier hierarchy, 2/2 tests passing

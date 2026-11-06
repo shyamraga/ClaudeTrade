@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+*.env
+
+# Trader runtime state (no secrets, no live data)
+backend/trader/state/
+backend/trader/watchlist.json
+backend/trader/entry.json
+backend/trader/plan.json
+backend/trader/orders.json
+backend/trader/prices.json
+backend/trader/timemachine.json
+backend/trader/alerts.json
+backend/trader/metrics.json
+backend/trader/portfolio.json
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Excalidraw renders
+008_Builds/
